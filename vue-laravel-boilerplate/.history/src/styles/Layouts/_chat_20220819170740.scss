@@ -1,0 +1,12 @@
+.chat__left {
+    width: 312px;
+    .chat__search {
+        height: 50px;
+        border-radius: 100px;
+        background-color: $color-white-0;
+        display: flex;
+        input {
+            border: 0;
+        }
+    }
+}

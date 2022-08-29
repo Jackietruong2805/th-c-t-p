@@ -1,0 +1,35 @@
+.Rectangle-238 {
+    width: 321px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    background-color: $bg-white-0;
+    padding: 9px 27px 17px 10px;
+    margin-bottom: $mg-1 - 1;
+    .cardmem__ava {
+        align-self: flex-start;
+        margin-top: $mg-0;
+        .cardmem__img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-grow: 0;
+        }
+    }
+    .cardmem__info {
+        flex: 1;
+        margin-left: $mg-2;
+        .cardmem__name {
+            @include styleText($color-black-0, $fs-0, $fw-0);
+            margin-bottom: $mg-1;
+        }
+        .cardmem__text {
+            @include styleText($color-black-1, $fs-1, $fw-0);
+            margin-bottom: $mg-1 + 2;
+        }
+        .cardmem__date {
+            @include styleText($color-blue-2, $fs-2, $fw-0);
+        }
+    }
+}

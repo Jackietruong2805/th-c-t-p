@@ -1,0 +1,13 @@
+.chat__left {
+    width: 312px;
+    .chat__search {
+        height: 50px;
+        margin: 41px 15px 18px 200px;
+        padding: 12px 7px 13px 19px;
+        border-radius: 100px;
+        background-color: $color-white-0;
+        input {
+            border: 0;
+        }
+    }
+}

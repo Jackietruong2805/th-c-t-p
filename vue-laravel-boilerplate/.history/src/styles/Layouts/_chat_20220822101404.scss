@@ -1,0 +1,36 @@
+.chat__container {
+    display: flex;
+    .chat__left {
+        flex-grow: 0;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        .chat__search {
+            height: 50px;
+            border-radius: 100px;
+            background-color: $color-white-0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            margin-bottom: $mg-2 + 1;
+            & i {
+                color: $color-gray-0;
+                font-size: 25px;
+            }
+            input {
+                border: 0;
+                flex-grow: 1;
+                padding: 0 0 0 10px;
+                &:focus {
+                    outline: none;
+                }
+                &[placeholder] {
+                    color: $color-gray-0;
+                }
+            }
+        }
+    }
+    .chat__right {
+        flex: 1;
+    }
+}

@@ -1,0 +1,12 @@
+@mixin styleText($color, $fs, $fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+
+@mixin styleAva($size) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    object-fit: cover;
+}

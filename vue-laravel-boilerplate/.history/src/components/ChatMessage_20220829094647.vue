@@ -1,0 +1,40 @@
+<template>
+  <div
+    ref="checkColor"
+    :class="[props.message.msgColor ? 'message-content' : 'message-content2']"
+  >
+    {{ message }}
+  </div>
+</template>
+
+<script setup lang="ts">
+/* 
+    import
+*/
+import { useRoute } from 'vue-router';
+import { defineProps, ref, onUpdated, onBeforeMount } from 'vue';
+
+/* 
+  Route
+*/
+
+const route = useRoute();
+
+const checkColor = ref('');
+
+/* 
+    Props
+*/
+
+const props = defineProps({
+  message: {
+    type: Object,
+  },
+});
+
+let message = props.message.content;
+
+let isMinechat = props.message.bgColor;
+console.log(checkColor);
+</script>
+

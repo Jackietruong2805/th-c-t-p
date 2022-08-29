@@ -1,0 +1,56 @@
+.header {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 23px;
+    padding: 9px 50px 11px;
+    background-color: $bg-blue-0;
+
+    .header__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .header__logo {
+            color: $color-white-0;
+            font-family: "Dancing Script", cursive;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header__form {
+            width: 679px;
+            height: 50px;
+            margin: 3px 377px 1px 169.8px;
+            padding: 10px 320px 10px 23px;
+            border-radius: 100px;
+            background-color: $bg-white-0;
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 30px;
+            }
+            .header__search {
+                border: 0;
+                flex-grow: 1;
+                margin-left: 10px;
+                &:focus {
+                    outline: 0;
+                }
+                &[placeholder] {
+                    font-size: 14px;
+                    color: $color-gray-0;
+                }
+            }
+        }
+    }
+    .header__right {
+        .Ellipse-34 {
+            width: 30px;
+            height: 30px;
+            padding: 5.3px 6.3px 7.3px;
+            background-color: $bg-red-0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+    }
+}

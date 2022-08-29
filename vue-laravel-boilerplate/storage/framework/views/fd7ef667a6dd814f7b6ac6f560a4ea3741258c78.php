@@ -1,0 +1,2 @@
+<?php echo $__env->make('layout.view', ['source'=> 'src/main.ts'], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /Users/hy/Documents/queenb-git/vue-laravel-boilerplate/resources/views/welcome.blade.php ENDPATH**/ ?>

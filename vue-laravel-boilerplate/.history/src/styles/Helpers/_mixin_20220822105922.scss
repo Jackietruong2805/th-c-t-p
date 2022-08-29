@@ -1,0 +1,13 @@
+@mixin styleText($color, $fs, $fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+
+@mixin cardImg($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-grow: 0;
+}
